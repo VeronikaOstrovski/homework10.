@@ -12,6 +12,8 @@ import static io.restassured.RestAssured.given;
  * Unit test for simple App.
  */
 public class ApiTest {
+
+    // Number 1
     @ParameterizedTest
     @ValueSource(ints = {1, 5, 10})
     public void simpleParamPositiveTestGet(int id) {
@@ -25,7 +27,7 @@ public class ApiTest {
                 .all()
                 .statusCode(HttpStatus.SC_OK);
     }
-
+     // Number 2
     @ParameterizedTest
     @ValueSource(ints = {0, 11})
     public void simpleParamNegativeTestGet(int id) {
@@ -40,6 +42,7 @@ public class ApiTest {
                 .statusCode(HttpStatus.SC_BAD_REQUEST);
     }
 
+    // Number 3
     String requestBody = "{\n" +
             "  \"status\": \"INPROGRESS\",\n" +
             "  \"courierId\": 12,\n" +
@@ -62,8 +65,10 @@ public class ApiTest {
                 .log()
                 .all()
                 .statusCode(HttpStatus.SC_OK);
+
     }
 
+    // Number 4
     String requestBody415 = "{\n" +
             "  \"status\": \"DELIVERED\",\n" +
             "  \"courierId\": 16,\n" +
@@ -88,8 +93,9 @@ public class ApiTest {
                 .statusCode(HttpStatus.SC_UNSUPPORTED_MEDIA_TYPE);
     }
 
+    // Number 5
     @Test
-    public void simplePositiveTestResponseBodyStatusOpen() {
+    public void simplePositiveTestResponseBodyStatusOpenGet() {
 
         String status = given()
                 .when()
@@ -106,8 +112,8 @@ public class ApiTest {
 
         Assertions.assertEquals("OPEN", status);
 
-
     }
+
 }
 
 

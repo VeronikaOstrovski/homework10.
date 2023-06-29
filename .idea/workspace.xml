@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dc1be8a-feea-42ce-b35c-22670c53404d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PetStoreAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ApiTest">
+  <component name="RunManager" selected="JUnit.PetStoreAPI">
     <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework10." />
       <extension name="coverage">
@@ -56,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.simpleNegativeTestPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework10." />
       <extension name="coverage">
         <pattern>
@@ -65,14 +67,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ApiTest" />
-      <option name="METHOD_NAME" value="simpleNegativeTestPost" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PetStoreAPI" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreAPI.simplePositiveTestResponseBodyCompleteFalseGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework10." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PetStoreAPI" />
+      <option name="METHOD_NAME" value="simplePositiveTestResponseBodyCompleteFalseGet(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.simpleParamPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreAPI.simplePositiveTestResponseBodyCompleteTrueGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework10." />
       <extension name="coverage">
         <pattern>
@@ -81,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ApiTest" />
-      <option name="METHOD_NAME" value="simpleParamPositiveTest(int)" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PetStoreAPI" />
+      <option name="METHOD_NAME" value="simplePositiveTestResponseBodyCompleteTrueGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.simplePositiveTestPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreAPI.simplePositiveTestResponseBodyStatusApprovedGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework10." />
       <extension name="coverage">
         <pattern>
@@ -97,24 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ApiTest" />
-      <option name="METHOD_NAME" value="simplePositiveTestPost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.simplePositiveTestResponseBodyStatusOpen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework10." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ApiTest" />
-      <option name="METHOD_NAME" value="simplePositiveTestResponseBodyStatusOpen" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PetStoreAPI" />
+      <option name="METHOD_NAME" value="simplePositiveTestResponseBodyStatusApprovedGet(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetStoreAPI" />
+        <item itemvalue="JUnit.PetStoreAPI.simplePositiveTestResponseBodyStatusApprovedGet" />
         <item itemvalue="JUnit.ApiTest" />
-        <item itemvalue="JUnit.ApiTest.simpleNegativeTestPost" />
-        <item itemvalue="JUnit.ApiTest.simplePositiveTestResponseBodyStatusOpen" />
-        <item itemvalue="JUnit.ApiTest.simplePositiveTestPost" />
-        <item itemvalue="JUnit.ApiTest.simpleParamPositiveTest" />
+        <item itemvalue="JUnit.PetStoreAPI.simplePositiveTestResponseBodyCompleteFalseGet" />
+        <item itemvalue="JUnit.PetStoreAPI.simplePositiveTestResponseBodyCompleteTrueGet" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +140,19 @@
       <option name="presentableId" value="Default" />
       <updated>1687870312208</updated>
     </task>
+    <task id="LOCAL-00001" summary="Task 1, task 2, task 3, task 4, task 5 done">
+      <created>1687880833774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687880833775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 1, task 2, task 3, task 4 done" />
+    <MESSAGE value="Task 1, task 2, task 3, task 4, task 5 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1, task 2, task 3, task 4, task 5 done" />
   </component>
 </project>
